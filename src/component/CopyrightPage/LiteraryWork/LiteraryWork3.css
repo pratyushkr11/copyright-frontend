@@ -1,0 +1,105 @@
+.main___container {
+  background: #0575e6;
+  background: -webkit-linear-gradient(to bottom, #0575e6, #021b79);
+  background: linear-gradient(to bottom, #0575e6, #021b79);
+}
+
+.form-container3 {
+  width: 90%;
+  margin: auto;
+  background: white;
+
+  box-shadow: 6px -6px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.questions {
+  margin: auto;
+  width: 85%;
+}
+
+.questions label {
+  font-weight: 500;
+  font-size: 22px;
+  width: 500px;
+}
+
+.question__container input {
+  width: 400px;
+  border-radius: 10px;
+  border-width: 1px;
+  padding-left: 15px;
+}
+
+.yes__container input,
+.no__container input {
+  width: 400px;
+  border-radius: 10px;
+  border-width: 1px;
+  padding-left: 15px;
+}
+.question__container div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.app__question label {
+  padding: 10px 0;
+  margin-right: 300px;
+}
+
+.app__question input {
+  margin-left: 100px;
+}
+
+.yes__container div,
+.no__container div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.action-btn3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .main__container {
+    background: #0575e6;
+    background: -webkit-linear-gradient(to bottom, #0575e6, #021b79);
+    background: linear-gradient(to bottom, #0575e6, #021b79);
+  }
+
+  .hero-section {
+    padding: 0 20px 30px 150px;
+    color: white;
+  }
+
+  .app__question label {
+    padding: 10px 0;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+
+  .app__question input {
+    margin-left: 30px;
+    padding-top: 5px;
+  }
+
+  .question__container label {
+    font-size: 18px;
+    padding-top: 5px;
+  }
+
+  .question__container input {
+    height: 40px;
+  }
+
+  .yes__container label,
+  .no__container label {
+    font-size: 18px;
+  }
+}
